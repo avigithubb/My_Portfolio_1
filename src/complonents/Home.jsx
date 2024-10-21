@@ -3,6 +3,7 @@ import myPic from "../assets/images/my-pic.jpg";
 import Card from "./Cards.jsx";
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
+import resume from "../assets/images/resume.pdf";
 
 
 function Home(){
@@ -64,7 +65,7 @@ function Home(){
                 <div className="content"  style={{opacity: `${opacit}`}}>
                     <h1 className="myIntro"><span className="intro">Hi, I am <span style={{color : "#77E4C8"}}>Abhishek</span></span><br />Web Developer | Content Writer | Graphic Designer</h1>
                     <p className="bio">A versatile professional with expertise in <span style={{color : "#77E4C8"}}>Python</span> full-stack development, <span style={{color : "#77E4C8"}}>MERN</span> stack, and <span style={{color : "#77E4C8"}}>graphic design</span>. Proficient in content writing and known for exceptional multitasking skills, I bring a creative and technical approach to building high-quality web applications and designs.</p>
-                    <a href="images/Abhishek Napit.docx" download><button className="download-btn"><em>🔻 Download CV</em></button></a>
+                    <a href={resume} download><button className="download-btn"><em>🔻 Download CV</em></button></a>
                     <p className="scroll-down">Scroll Down 👇</p>
                 </div>
             </section>
