@@ -759,6 +759,7 @@ body{
 
   .contactss{
     flex-direction: column;
+   
   }
 
   .mDiv{
@@ -781,6 +782,7 @@ body{
   .project-interface{
     flex-direction: column;
   }
+
 
   h1.myPortfolio{
     font-size: 50px !important;
