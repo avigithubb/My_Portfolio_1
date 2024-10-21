@@ -698,6 +698,7 @@ body{
 
   .skill-card{
     width: 100vw !important;
+    
   }
 
   /* .skill-element:nth-child(1){
@@ -705,7 +706,9 @@ body{
   } */
 
   .skill-card-parent{
-    margin-top: 50px !important;
+    margin-top: 0px !important;
+    padding-top: 50px;
+
   }
 
   h1#my-skill-text{
