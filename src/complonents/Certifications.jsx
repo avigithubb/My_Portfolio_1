@@ -44,7 +44,7 @@ function Certification(){
 
             <div className="certi-cards" style={{width: "80vw", margin: "auto", marginTop: "200px", padding: "20px", display: "flex"}}>
                 <Card img={python} description="100 Days of Code: The Complete Python Pro Bootcamp, By Dr. Angela Yu." link="https://www.udemy.com/certificate/UC-83245d13-3b85-4b00-9b89-13192629fdf2/" />
-                <Card img={python} description="The Complete 2024 Web Development Bootcamp, By Dr. Angela Yu." link="https://www.udemy.com/certificate/UC-a2d9f622-1fac-4b84-80a3-86475203ae7f/" />
+                <Card img={webdev} description="The Complete 2024 Web Development Bootcamp, By Dr. Angela Yu." link="https://www.udemy.com/certificate/UC-a2d9f622-1fac-4b84-80a3-86475203ae7f/" />
             </div>
 
         </div>
