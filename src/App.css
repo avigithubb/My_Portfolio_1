@@ -701,6 +701,10 @@ body{
     
   }
 
+  .about-this{
+    color: black;
+  }
+
   /* .skill-element:nth-child(1){
     margin-top: 600px !important;
   } */
